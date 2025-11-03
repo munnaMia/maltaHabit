@@ -1,0 +1,14 @@
+.headerSection {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    padding: 0 15px;
+    background-color: transparent;
+
+    /* center block element */
+    margin: 0 auto;
+}
