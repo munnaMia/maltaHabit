@@ -1,1 +1,25 @@
-/* This file contain the style for root and common css component like links and other */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 253, 245);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

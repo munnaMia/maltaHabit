@@ -1,1 +1,8 @@
 /* App component style goes here  */
+
+/* Every page will contain this page class  */
+.page {
+    background-color: rgb(255, 167, 14);
+    min-height: 100vh;
+    width: 100vw;
+}
