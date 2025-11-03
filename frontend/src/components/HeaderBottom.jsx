@@ -1,8 +1,11 @@
+import "./HeaderBottom.css";
+
 export default function HeaderBottom() {
     return (
         <div className="headerLowerContainer">
-            <div className="headerLower">
-                <nav className="navContainer">
+            <div className="headerContainer">
+                {/* all navigation element goes into the nav tag */}
+                <nav>
                     <ul className="navItemsContainer">
                         <li className="navItems">
                             <a className="navLinks" href="/">

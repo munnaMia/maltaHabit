@@ -1,0 +1,78 @@
+/* header top banner */
+.headerUpperContainer {
+    width: 100%;
+    background-color: #171d27;
+    padding-top: 10px;
+}
+
+/* style all the element of upper headersection */
+.upperHeaderElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: row;
+}
+
+/* header logo  */
+.headerUserActions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 120px;
+}
+
+/* search bar  */
+.searchBarFrom {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchInput{
+    
+}
+
+.searchButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #146cda;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.searchButtonIcon {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* header utility actions or icon for profile and shoping cart & love  */
+
+.userContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.profileIcon {
+    height: 27px;
+    width: 27px;
+    color: #171d27;
+}
+
+.shopIcons {
+    height: 27px;
+    width: 27px;
+    color: #ffffff;
+}
