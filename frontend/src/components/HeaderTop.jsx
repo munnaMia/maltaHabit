@@ -8,32 +8,38 @@ export default function HeaderTop() {
             <div className="headerContainer upperHeaderElements">
                 {/* logo and header search bar container */}
                 {/* header logo here  */}
-                <div className="headerLogoContainer">
-                    <a href="/">
-                        <img src={HeaderLogo} className="headerLogo" alt="header logo" />
-                    </a>
-                </div>
+                <div className="logoAndHeaderContainer">
+                    <div className="headerLogoContainer">
+                        <a href="/">
+                            <img src={HeaderLogo} className="headerLogo" alt="header logo" />
+                        </a>
+                    </div>
 
-                {/* search bar here  */}
-                <div className="searchContainer">
-                    <form action="/search" method="get" className="searchBarFrom">
-                        <input type="text" id="search" className="searchInput" aria-label="search" autoComplete="off" placeholder="Search products here..." required />
-                        <button type="submit" className="searchButton">
-                            <Search className="searchButtonIcon"/>
-                        </button>
-                    </form>
+                    {/* search bar here  */}
+                    <div className="searchContainer">
+                        <form action="/search" method="get" className="searchBarFrom">
+                            <input type="text" id="search" className="searchInput" aria-label="search" autoComplete="off" placeholder="Hey malta here..." required />
+                            <button type="submit" className="searchButton">
+                                <Search className="searchButtonIcon" />
+                            </button>
+                        </form>
+                    </div>
                 </div>
 
                 {/* carts, profile & other icons here */}
                 <div className="headerUserActions">
                     <div className="shopContainer">
-                        <Heart className="shopIcons" />
-                        <ShoppingCart className="shopIcons" />
+                        <a href="#">
+                            <Heart absoluteStrokeWidth={true} strokeWidth={1} className="shopIcons" />
+                        </a>
+                        <a href="#">
+                            <ShoppingCart absoluteStrokeWidth={true} strokeWidth={1} className="shopIcons" />
+                        </a>
                     </div>
                     <div className="userContainer">
                         {/* user profile dash board link */}
                         <a href="#">
-                            <User className="profileIcon" />
+                            <User absoluteStrokeWidth={true} strokeWidth={1} className="profileIcon" />
                         </a>
                     </div>
                 </div>

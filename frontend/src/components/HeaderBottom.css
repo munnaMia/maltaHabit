@@ -2,6 +2,11 @@
 .headerLowerContainer {
     background-color: #146cda;
     width: 100%;
+    padding: 5px 0;
+}
+
+.navContainer {
+    width: 100%;
 }
 
 .navItemsContainer {
@@ -22,8 +27,12 @@
 .navLinks {
     color: #ffffff;
     text-transform: capitalize;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 900;
+    font-size: 1rem;
+
+    transition: 0.1s ease-in-out;
 }
 
-
+.navLinks:hover {
+    color: #ffffff;
+}

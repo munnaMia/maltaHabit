@@ -5,7 +5,7 @@ export default function HeaderBottom() {
         <div className="headerLowerContainer">
             <div className="headerContainer">
                 {/* all navigation element goes into the nav tag */}
-                <nav>
+                <nav className="navContainer">
                     <ul className="navItemsContainer">
                         <li className="navItems">
                             <a className="navLinks" href="/">

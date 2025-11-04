@@ -2,7 +2,7 @@
 .headerUpperContainer {
     width: 100%;
     background-color: #171d27;
-    padding-top: 10px;
+    padding: 15px 0;
 }
 
 /* style all the element of upper headersection */
@@ -14,11 +14,11 @@
     flex-direction: row;
 }
 
-/* header logo  */
-.headerUserActions {
+.logoAndHeaderContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .headerLogo {
@@ -26,13 +26,31 @@
 }
 
 /* search bar  */
+.searchContainer {
+    margin-left: 20px;
+}
+
 .searchBarFrom {
     display: flex;
     flex-direction: row;
 }
 
-.searchInput{
-    
+.searchInput {
+    height: 40px;
+    width: 400px;
+    padding: 0 10px;
+
+    color: rgb(29, 29, 29);
+    background-color: #ffffff;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    border: none;
+    outline: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .searchButton {
@@ -40,18 +58,28 @@
     justify-content: center;
     align-items: center;
 
-    background-color: #146cda;
+    background-color: #ffffff;
     border: none;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
+    padding: 0 10px;
 }
 
 .searchButtonIcon {
-    color: #ffffff;
+    cursor: pointer;
+    color: #146cda;
     font-size: 1rem;
 }
 
 /* header utility actions or icon for profile and shoping cart & love  */
+/* header logo  */
+.headerUserActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+}
 
 .userContainer {
     display: flex;
@@ -63,6 +91,8 @@
     border-radius: 50%;
     height: 35px;
     width: 35px;
+
+    margin-left: 10px;
 }
 
 .profileIcon {
@@ -75,4 +105,6 @@
     height: 27px;
     width: 27px;
     color: #ffffff;
+
+    margin: 0 10px;
 }
