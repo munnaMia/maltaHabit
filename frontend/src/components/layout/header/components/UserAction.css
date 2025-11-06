@@ -1,17 +1,9 @@
 /* header utility actions or icon for profile and shoping cart & love  */
 .headerUserActions {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     flex-direction: row;
 }
 
 .userContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50%;

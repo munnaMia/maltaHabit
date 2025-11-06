@@ -6,7 +6,7 @@ export default function HeaderBottom() {
             <div className="headerContainer">
                 {/* all navigation element goes into the nav tag */}
                 <nav className="navContainer">
-                    <ul className="navItemsContainer">
+                    <ul className="navItemsContainer justifyCenterDiv">
                         <li className="navItems">
                             <a className="navLinks" href="/">
                                 home

@@ -3,7 +3,7 @@ import './UserAction.css'
 
 export default function UserAction() {
     return (
-        <div className="headerUserActions">
+        <div className="headerUserActions centerDiv">
             <div className="shopContainer">
                 <a href="#">
                     <Heart absoluteStrokeWidth={true} strokeWidth={1} className="shopIcons" />
@@ -12,7 +12,7 @@ export default function UserAction() {
                     <ShoppingCart absoluteStrokeWidth={true} strokeWidth={1} className="shopIcons" />
                 </a>
             </div>
-            <div className="userContainer">
+            <div className="userContainer centerDiv">
                 {/* user profile dash board link */}
                 <a href="#">
                     <User absoluteStrokeWidth={true} strokeWidth={1} className="profileIcon" />

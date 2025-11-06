@@ -5,7 +5,7 @@ export default function SearchBar() {
         <div className="searchContainer">
             <form action="/search" method="get" className="searchBarFrom">
                 <input type="text" id="search" className="searchInput" aria-label="search" autoComplete="off" placeholder="Hey malta here..." required />
-                <button type="submit" className="searchButton">
+                <button type="submit" className="searchButton centerDiv">
                     <Search className="searchButtonIcon" />
                 </button>
             </form>

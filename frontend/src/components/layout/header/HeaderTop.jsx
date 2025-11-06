@@ -6,8 +6,8 @@ import "./HeaderTop.css";
 export default function HeaderTop() {
     return (
         <div className="headerUpperContainer">
-            <div className="headerContainer upperHeaderElements">
-                <div className="logoAndHeaderContainer">
+            <div className="headerContainer upperHeaderElements alingCenterDiv">
+                <div className="centerDiv logoAndHeaderContainer">
                     <HeaderLogo />
                     <SearchBar />
                 </div>
