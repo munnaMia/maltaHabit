@@ -1,7 +1,7 @@
 import HeaderLogo from "./components/HeaderLogo";
 import SearchBar from "./components/SearchBar";
 import UserAction from "./components/UserAction";
-import "./HeaderTop.css";
+import "./HeaderBar.css";
 
 export default function HeaderTop() {
     return (

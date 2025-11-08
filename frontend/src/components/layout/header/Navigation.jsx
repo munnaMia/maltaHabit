@@ -1,6 +1,6 @@
-import "./HeaderBottom.css";
+import "./Navigation.css";
 
-export default function HeaderBottom() {
+export default function Navigation() {
     return (
         <div className="headerLowerContainer">
             <div className="headerContainer">

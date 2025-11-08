@@ -1,11 +1,11 @@
-import HeaderTop from "./HeaderTop";
-import HeaderBottom from "./HeaderBottom";
+import HeaderBar from "./HeaderBar";
+import Navigation from "./Navigation";
 import './Header.css'
 export default function Header() {
     return (
         <header className="headerSection">
-            <HeaderTop />
-            <HeaderBottom />
+            <HeaderBar />
+            <Navigation />
         </header>
     );
 }
