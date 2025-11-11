@@ -1,8 +1,14 @@
 /* header bottom banner */
 .headerLowerContainer {
-    background-color: #146cda;
+    background-color: transparent;
     width: 100%;
     padding: 5px 0;
+}
+
+.gradient-border{
+    border: 1px solid;
+    border-image: linear-gradient(90deg,#2f2f2f 0%, rgb(102, 102, 102) 50%, #2f2f2f 100%);;
+    border-image-slice: 1;
 }
 
 .navContainer {

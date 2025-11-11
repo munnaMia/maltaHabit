@@ -5,7 +5,7 @@ export default function Navigation() {
         <div className="headerLowerContainer">
             <div className="headerContainer">
                 {/* all navigation element goes into the nav tag */}
-                <nav className="navContainer">
+                <nav className="navContainer gradient-border">
                     <ul className="navItemsContainer justifyCenterDiv">
                         <li className="navItems">
                             <a className="navLinks" href="/">
