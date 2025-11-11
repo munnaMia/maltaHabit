@@ -3,26 +3,26 @@
     flex-direction: row;
 }
 
-.userContainer {
-    background-color: rgb(255, 255, 255);
+.userActionIcon {
+    background-color: var(--bg-gray);
+
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+
     border: none;
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
 
-    margin-left: 10px;
+    cursor: pointer;
+    transition-timing-function: var(--timing-function);
+    transition-duration: var(--duration);
 }
 
-.profileIcon {
-    height: 27px;
-    width: 27px;
-    color: #171d27;
+.userActionIcon:hover {
+    background-color: var(--bg-gray-light);
 }
 
-.shopIcons {
-    height: 27px;
-    width: 27px;
-    color: #ffffff;
-
-    margin: 0 10px;
+.userActionIcon svg {
+    display: block;
+    color: var(--primary-color);
 }
