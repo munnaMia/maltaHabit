@@ -1,10 +1,18 @@
 :root {
-    --bg-black: rgb(9 9 11);
+    --white: rgb(255, 255, 255);
+
     --primary-color: rgb(235, 255, 81);
-    --text-dark-gray: rgb(229 231 235);
+
+    --text-light-gray: rgb(229 231 235);
     --text-gray: rgb(156 163 175);
-    --bg-gray: rgb(39 39 42);
+    --light-yellow-color: rgb(243, 255, 156);
+
     --bg-gray-light: rgb(55, 55, 58);
+    --bg-gray: rgb(39 39 42);
+    --bg-deep-gray:rgb(24, 24, 27);
+
+    --bg-black: rgb(9 9 11);
+
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --duration: 150ms;
 }
