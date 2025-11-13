@@ -1,5 +1,33 @@
-.home-dashboard{
-    background-color: red;
+.home-dashboard {
+    background-color: transparent;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.home-dash-header {
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.home-dash-header > h2 {
+    color:var(--white);
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.home-dash-header > a {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    opacity: 0.8;
+    transition-timing-function: var(--timing-function);
+    transition-duration: var(--duration);
+}
+
+.home-dash-header > a:hover {
+    opacity: 1;
+}
+
+.home-dash-container {
 }
