@@ -28,7 +28,7 @@ export default function Motivation() {
                 </div>
             </div>
 
-            <div className="streak-container alingCenterDiv">
+            <div className="streak-container alingCenterDiv" onClick={()=>{console.log("click")}}>
                 <TrendingUp size={28} className="trending-up" />
                 <div className="streak-info">
                     <p>Longest streak</p>
