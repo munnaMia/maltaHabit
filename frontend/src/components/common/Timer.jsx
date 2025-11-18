@@ -3,17 +3,21 @@ import "./Timer.css";
 export default function Timer() {
     return (
         <div className="timer-container">
-            <div>
+            <div className="centerDiv ">
+                <p>year</p>
+                <span className="timer-fonts">{"00"}</span>
+            </div>
+            <div className="centerDiv">
                 <p>day</p>
-                <span>{"43"}</span>
+                <span className="timer-fonts">{"43"}</span>
             </div>
-            <div>
+            <div className="centerDiv">
                 <p>hour</p>
-                <span>{"02"}</span>
+                <span className="timer-fonts">{"02"}</span>
             </div>
-            <div>
+            <div className="centerDiv">
                 <p>minute</p>
-                <span>{"23"}</span>
+                <span className="timer-fonts">{"23"}</span>
             </div>
         </div>
     );

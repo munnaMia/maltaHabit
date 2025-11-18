@@ -1,13 +1,16 @@
 .compact-habit-card {
+    cursor: pointer;
     background-color: var(--bg-gray);
     font-size: 30px;
     text-align: center;
+    padding: 1rem;
+
+    flex-direction: column;
+
     border: 1px solid transparent;
-    border-radius: 0.8rem ;
-    transition-timing-function: var(--timing-function);
-    transition-duration:var(--duration) ;
-    cursor: pointer;
-}
-.compact-habit-card:hover{
+    border-radius: 0.8rem;
     border: 1px solid var(--light-yellow-color);
+
+    transition-timing-function: var(--timing-function);
+    transition-duration: var(--duration);
 }

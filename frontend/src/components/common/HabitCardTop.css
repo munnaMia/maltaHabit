@@ -1,0 +1,50 @@
+.habit-card-top-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.habit-card-title {
+    color: var(--white);
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+
+    max-width: 15rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.habit-card-buttons-container {
+    flex-direction: row;
+}
+
+.habit-card-buttons {
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    margin: 0 4px;
+
+    background-color: rgba(63 63 70/0.5);
+
+    transition-timing-function: var(--timing-function);
+    transition-duration: var(--duration);
+}
+.habit-card-buttons:hover {
+    opacity: 1;
+    background-color: rgb(63 63 70);
+}
+
+.habit-card-icon {
+    display: block;
+}
+.habit-card-menu-icon {
+    color: var(--text-gray);
+}
+
+.stat {
+    color: var(--primary-color);
+}
