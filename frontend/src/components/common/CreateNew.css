@@ -1,0 +1,23 @@
+.createNew-habit-card {
+    cursor: pointer;
+    background-color: var(--bg-gray);
+    padding: 1rem;
+
+    opacity: 0.7;
+
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    border: 1px solid var(--light-yellow-color);
+
+    transition-timing-function: var(--timing-function);
+    transition-duration: var(--duration);
+}
+
+.createNew-habit-card:hover {
+    opacity: 1;
+}
+
+
+.create-icon{
+    color: var(--white);
+}

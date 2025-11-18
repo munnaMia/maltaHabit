@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react";
 
 import ShortHabitCard from "../../common/CompactHabitCard";
 import "./HomeDashboard.css";
+import CreateNew from "../../common/CreateNew";
 
 export default function HomeDashboard() {
     return (
@@ -19,8 +20,7 @@ export default function HomeDashboard() {
                 <ShortHabitCard />
                 <ShortHabitCard />
                 <ShortHabitCard />
-                <ShortHabitCard />
-                <ShortHabitCard />
+                <CreateNew />
             </div>
         </div>
     );
