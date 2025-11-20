@@ -1,8 +1,12 @@
 .motivation-container {
     max-width: 1200px;
     margin: 20px auto;
-    padding: 1.5rem;
+    padding: 5px 10px;
+}
 
+.motivation-sub-container {
+    width: 100%;
+    padding: 1.5rem;
     background-color: var(--bg-gray);
     border-radius: 1rem;
 
@@ -60,7 +64,7 @@
 
 .trending-up {
     color: var(--primary-color);
-    margin-right:  0.75rem;
+    margin-right: 0.75rem;
 }
 
 .streak-info {

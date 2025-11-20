@@ -1,8 +1,8 @@
 import { ChevronRight } from "lucide-react";
-
-import ShortHabitCard from "../../common/CompactHabitCard";
-import "./HomeDashboard.css";
+import CompactHabitCard from "../../common/CompactHabitCard";
 import CreateNew from "../../common/CreateNew";
+
+import "./HomeDashboard.css";
 
 export default function HomeDashboard() {
     return (
@@ -16,10 +16,10 @@ export default function HomeDashboard() {
             </div>
 
             <div className="home-dash-container">
-                <ShortHabitCard />
-                <ShortHabitCard />
-                <ShortHabitCard />
-                <ShortHabitCard />
+                <CompactHabitCard />
+                <CompactHabitCard />
+                <CompactHabitCard />
+                <CompactHabitCard />
                 <CreateNew />
             </div>
         </div>

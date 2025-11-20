@@ -38,6 +38,10 @@ a {
     cursor: pointer;
 }
 
+li{
+    list-style: none;
+}
+
 #root {
     display: flex;
     flex-direction: column;
