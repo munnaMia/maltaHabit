@@ -1,0 +1,87 @@
+.motivation-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 1.5rem;
+
+    background-color: var(--bg-gray);
+    border-radius: 1rem;
+
+    justify-content: space-between;
+}
+
+.greet-container {
+    background-color: transparent;
+    max-width: 70%;
+}
+
+.greeting {
+    color: var(--white);
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+}
+
+.user-name {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+}
+
+.motivaitonal-quote {
+    margin-top: 1rem;
+    color: var(--text-gray);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.from {
+    opacity: 0.7;
+    font-style: italic;
+    color: var(--text-gray);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.streak-container {
+    padding: 1rem 0.75rem;
+    flex-direction: row;
+    background-color: var(--bg-deep-gray);
+    border: 1px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-radius: 0.75rem;
+    cursor: pointer;
+
+    box-shadow: 0px 7px 11px -8px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 0px 7px 11px -8px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0px 7px 11px -8px rgba(0, 0, 0, 0.5) inset;
+}
+
+.trending-up {
+    color: var(--primary-color);
+    margin-right:  0.75rem;
+}
+
+.streak-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.streak-info > p {
+    font-weight: 400;
+    opacity: 0.8;
+    color: var(--text-gray);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+}
+
+.Days {
+    color: var(--light-yellow-color);
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
