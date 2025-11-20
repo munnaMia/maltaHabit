@@ -1,0 +1,24 @@
+Day 00 - 00 week    - Sainik 
+Day 03 - 00 week    - Lance Corporal 
+Day 07 - 01 week    - Corporal
+Day 14 - 02 week    - Sergeant
+Day 21 - 03 week    - Company Battery Quarter Master Sergeant	
+Day 30 - 01 Month   - Company Battery Sergeant Major	
+Day 45 - ~01 Month  - Battalion Regiment Quarter Master Sergeant	
+Day 60 - 02 Month   - Battalion Regiment Sergeant Major
+
+Day 75  - ~02 Month - Warrant Officer	
+Day 90  - 03 Month  - Senior Warrant Officer	
+Day 110 - ~03 Month - Master Warrant Officer	
+Day 140 - ~4 Month  - Honorary Lieutenant	
+Day 180 - 06 Year   - Honorary Captain
+
+Day 210     - 7 Month   - Second Lieutenant	
+Day 250     - ~08 Month - Lieutenant	
+Day 300     - 10 Month  - Captain	Major	
+Day 365     - 1 Years   - Lieutenant Colonel	
+Day 547     - 1.5 Years - Colonel	
+Day 730     - 2 Years   - Brigadier General	
+Day 1095    - 3 Years   - Major General	
+Day 1460    - 4 Years   - Lieutenant General	
+Day 1826+   - 5+ Years  - General
