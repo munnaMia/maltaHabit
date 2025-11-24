@@ -3,8 +3,7 @@ import "./Footer.css";
 
 export function Footer() {
     const COMPANY_INFO =
-        "A cutting-edge platform dedicated to maximizing digital efficiency and personal growth. We empower users to build powerful routines, achieve flow state, and deliver their best work.";
-
+        "MaltaHabit empowers individuals to break bad habits, build stronger routines, and unlock higher levels of productivity. Alongside our intuitive habit-tracking tools, we offer a dedicated online marketplace where users can discover products that support personal growth, wellness, and a more intentional daily lifestyle";
     const LINKS_GROUP = [
         {
             title: "company",
@@ -63,7 +62,7 @@ export function Footer() {
         },
     ];
 
-    const YEAR = new Date().getFullYear()
+    const YEAR = new Date().getFullYear();
 
     return (
         <div className="footer-container">
@@ -109,11 +108,13 @@ export function Footer() {
                                 </div>
                                 <div>
                                     <nav>
-                                        <ul >
+                                        <ul>
                                             {group.links.map((linkItem) => {
                                                 return (
                                                     <li key={linkItem.name}>
-                                                        <a className="footer-info-items" href={linkItem.link} >{linkItem.name}</a>
+                                                        <a className="footer-info-items" href={linkItem.link}>
+                                                            {linkItem.name}
+                                                        </a>
                                                     </li>
                                                 );
                                             })}

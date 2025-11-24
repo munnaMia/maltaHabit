@@ -1,15 +1,5 @@
 .headerSection {
     display: flex;
     flex-direction: column;
-    width: 100vw;
     background-color: var(--bg-deep-gray);
-}
-
-.headerContainer {
-    max-width: 1200px;
-    padding: 0 15px;
-    background-color: transparent;
-
-    /* center block element */
-    margin: 0 auto;
 }

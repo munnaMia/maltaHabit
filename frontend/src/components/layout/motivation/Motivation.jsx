@@ -15,7 +15,7 @@ const getGreeting = () => {
 
 export default function Motivation() {
     return (
-        <div className="motivation-container">
+        <div className="pageAlign motivation-container">
             <div className="motivation-sub-container alingCenterDiv">
                 <div className="greet-container">
                     <div className="greeting">

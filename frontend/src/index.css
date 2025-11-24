@@ -29,6 +29,14 @@
     font-size: 16px;
     box-sizing: border-box;
 }
+
+.pageAlign {
+    background-color: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
 body {
     background-color: rgb(255, 253, 245);
 }
@@ -38,7 +46,7 @@ a {
     cursor: pointer;
 }
 
-li{
+li {
     list-style: none;
 }
 

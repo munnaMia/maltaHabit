@@ -6,7 +6,7 @@ import "./HomeDashboard.css";
 
 export default function HomeDashboard() {
     return (
-        <div className="home-dashboard">
+        <div className="pageAlign">
             <div className="home-dash-header alingCenterDiv">
                 <h2>Latest Habits</h2>
                 <a href="#" className="alingCenterDiv">

@@ -3,7 +3,7 @@ import "./Navigation.css";
 export default function Navigation() {
     return (
         <div className="headerLowerContainer">
-            <div className="headerContainer">
+            <div className="pageAlign">
                 {/* all navigation element goes into the nav tag */}
                 <nav className="navContainer">
                     <ul className="navItemsContainer justifyCenterDiv">
